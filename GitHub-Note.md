@@ -77,3 +77,30 @@ Synchronize your local repository with the remote repository on GitHub.com
 4. **$ git pull**
 
     Updates your current local working branch with all new commits from the corresponding remoate branche on GitHub.**git pull** is a combination of **git fetch** and **git merge**
+
+### Make changes
+Browse and inspect the evolution of project files
+
+1. **$ git log**
+
+   Lists version history for the current branch
+
+2. **$ git log --follow [file]**
+
+   Lists version history for a file,including renames
+   
+3. **$ git diff [first-branch]..[second-branch]
+
+   Shows content differences between two branches
+
+4. **$ git show [commit]
+
+   Outputs metadata and content changes of the specified commit
+
+5. **$ git add [file]
+
+    Snapshots the file in preparatyion for versioning
+
+6. **$ git commit -m "[descriptive message]"
+
+     Records file snapshots permanently in version history
