@@ -1,4 +1,4 @@
-### install 
+### Install 
 
 **Github for Windows**
 https://windows.github.com
@@ -25,3 +25,23 @@ Configure user information for all local repositories
 3. **$ git config --global color.ui auto**
 
     Enables helpful colorization of command line output
+
+### Branches
+
+Branches are an imporatant part of working with Git any commits you make will be made on the branch you ar currently "checked out" to. Use git status to see which branch that is.
+
+1. **$ git branch [branch-name]**
+
+    Creates a new branch
+   
+2. **$ git checkout [branch-name]**
+
+    Switches to the specified branch and updates the working directory
+   
+3. **$ git merge [branch]**
+
+    Combines the specified branch's history into the current branch. This is usually done in pull requests, but iis an important Git opration.
+
+4. **$ git branch -d [branch-name]**
+
+    Delete specified brach.   
