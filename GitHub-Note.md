@@ -32,11 +32,11 @@ Branches are an imporatant part of working with Git any commits you make will be
 
 1. **$ git branch [branch-name]**
 
-    Creates a new branch
+    Creates a new branch.
    
 2. **$ git checkout [branch-name]**
 
-    Switches to the specified branch and updates the working directory
+    Switches to the specified branch and updates the working directory.
    
 3. **$ git merge [branch]**
 
@@ -45,3 +45,15 @@ Branches are an imporatant part of working with Git any commits you make will be
 4. **$ git branch -d [branch-name]**
 
     Delete specified brach.   
+
+### Create repositories
+
+When working with new repository, you only need to do it once, either locally,then push to GitHub, or by cloning an existing repository.
+
+1. **$ git init**
+
+    turn an existing directory into a git repository.
+
+2. **$git clone [url]**
+
+   Clone (download) a repository that already exosts on GitHub, including all of the files, brances, and commits.
