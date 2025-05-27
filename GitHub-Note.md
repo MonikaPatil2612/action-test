@@ -57,3 +57,23 @@ When working with new repository, you only need to do it once, either locally,th
 2. **$git clone [url]**
 
    Clone (download) a repository that already exosts on GitHub, including all of the files, brances, and commits.
+
+### Synchronize changes
+
+Synchronize your local repository with the remote repository on GitHub.com
+
+1. **$ git fetch**
+
+   Downloads all history from the remote tracking branches
+
+2. **$ git merge**
+
+   Combines remotes tracking branch into current local branch
+
+3. **$ git push**
+
+   Uploads all local branch commite to GitHub
+
+4. **$ git pull**
+
+    Updates your current local working branch with all new commits from the corresponding remoate branche on GitHub.**git pull** is a combination of **git fetch** and **git merge**
