@@ -89,18 +89,30 @@ Browse and inspect the evolution of project files
 
    Lists version history for a file,including renames
    
-3. **$ git diff [first-branch]..[second-branch]
+3. **$ git diff [first-branch]..[second-branch]**
 
    Shows content differences between two branches
 
-4. **$ git show [commit]
+4. **$ git show [commit]**
 
    Outputs metadata and content changes of the specified commit
 
-5. **$ git add [file]
+5. **$ git add [file]**
 
     Snapshots the file in preparatyion for versioning
 
-6. **$ git commit -m "[descriptive message]"
+6. **$ git commit -m "[descriptive message]"**
 
      Records file snapshots permanently in version history
+
+### Redo commits
+
+Erase mistakes and craft replacement history
+
+1. **$ git reset [commit]**
+
+    Undoes all commit after [commit], preserving changes locally
+
+2. **$ git reset --hard [commit]**
+
+    Discords all history and changes back to the specified commit
